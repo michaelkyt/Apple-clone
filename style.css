@@ -104,6 +104,7 @@ table {
 /* use the custom font like any other font */
 body {
   font-family: "Myriad Set Pro","Helvetica Neue","Helvetica","Arial",sans-serif;
+  width: 100%;
 }
 
 header {
@@ -112,9 +113,12 @@ header {
 
 .container {
   max-width: 1080px;
-  height: 45px;
   margin: 0 auto;
   text-align: center;
+}
+
+.navbar {
+  height:45px;
 }
 
 .nav-icon {
@@ -137,11 +141,14 @@ header {
 }
 
 .hero-div {
+  margin-left: 15px;
+  margin-right: 15px;
   padding-left: 15px;
   padding-right: 15px;
 }
 
 #hero-text {
+  margin-top: 15px;
   font-size: 39px;
   font-weight: 350;
 }
@@ -166,12 +173,16 @@ header {
   text-decoration-line: underline;
 }
 
-.col-3 {
-  width: 24%;
-  display:inline-block;
-  margin: 10px auto;
+.subhero {
+  margin: 10px 0;
+  max-width: 100%;
 }
 
-.col-3 img {
-    align-items: center;
+.col-3 {
+  width: 24.5%;
+  display:inline-block;
+}
+
+#watch {
+  background-color: pink;
 }
