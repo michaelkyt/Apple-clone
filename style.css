@@ -107,7 +107,7 @@ body {
 }
 
 header {
-  background-color: #333333;
+  background-color: #333;
 }
 
 .container {
@@ -122,14 +122,23 @@ header {
   display: inline-block;
 }
 
+.nav-icon a:hover img{
+  opacity: 0.5;
+}
+
 .hero {
   margin: 10px auto 15px;
   height: 600px;
+  max-height: 600px;
 }
 .hero-content {
   display: inline-block;
-  margin-left:
   vertical-align: middle;
+}
+
+.hero-div {
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 #hero-text {
@@ -137,12 +146,32 @@ header {
   font-weight: 350;
 }
 
+#space-btw-links {
+  margin-left: 10px;
+}
+
 #hero-subtext {
   font-size: 22px;
-  color: blue;
+  font-weight: 300;
   letter-spacing: 0.05em;
+}
+
+#hero-subtext a {
+  text-decoration-line: none;
+  color: #08c;
 }
 
 #hero-subtext a:hover {
   color: black;
+  text-decoration-line: underline;
+}
+
+.col-3 {
+  width: 24%;
+  display:inline-block;
+  margin: 10px auto;
+}
+
+.col-3 img {
+    align-items: center;
 }
