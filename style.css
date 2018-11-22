@@ -112,17 +112,17 @@ header {
 }
 
 .container {
-  max-width: 1080px;
+  width: 1024px;
   margin: 0 auto;
   text-align: center;
 }
 
 .navbar {
-  height:45px;
+  height: 45px;
 }
 
 .nav-icon {
-  width: 100px;
+  width: 90px;
   display: inline-block;
 }
 
@@ -132,12 +132,12 @@ header {
 
 .hero {
   margin: 10px auto 15px;
-  height: 600px;
-  max-height: 600px;
+  height: 590px;
 }
+
 .hero-content {
-  display: inline-block;
   vertical-align: middle;
+  display: inline-block;
 }
 
 .hero-div {
@@ -175,14 +175,66 @@ header {
 
 .subhero {
   margin: 10px 0;
-  max-width: 100%;
+  width: 100%;
 }
 
 .col-3 {
+  height: 200px;
   width: 24.5%;
   display:inline-block;
+  border-right: 1px;
 }
 
 #watch {
-  background-color: pink;
+  background-image: url("./images/subhero/watch_large.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#ipad {
+  background-image: url("./images/subhero/ipad_pro_large.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#acc {
+  background-image: url("./images/subhero/accessories_large.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#macbook {
+  background-image: url("./images/subhero/macbook_large.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#AClink {
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0.01em;
+  padding: 1em 0;
+}
+
+#AClink a {
+  text-decoration-line: none;
+  color: #08c;
+}
+
+#AClink a:hover {
+  text-decoration-line: underline;
+}
+
+footer {
+  background-color: #f2f2f2;
+  font-size: 11.94px;
+  line-height: 1.66667;
+  font-weight: 400;
+  letter-spacing: -0.01px;
+  color: #666;
+}
+
+.list-head{
+  font-weight: bold;
+  color: black;
 }
