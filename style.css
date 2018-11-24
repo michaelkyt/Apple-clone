@@ -180,9 +180,8 @@ header {
 
 .col-3 {
   height: 200px;
-  width: 24.5%;
+  width: 25%;
   display:inline-block;
-  border-right: 1px;
 }
 
 #watch {
@@ -214,6 +213,7 @@ header {
   font-weight: 400;
   letter-spacing: 0.01em;
   padding: 1em 0;
+  width: 100%;
 }
 
 #AClink a {
@@ -232,9 +232,26 @@ footer {
   font-weight: 400;
   letter-spacing: -0.01px;
   color: #666;
+
 }
+
+.footer-links {
+  margin: 0 auto;
+  max-width: 1024px;
+}
+
+
 
 .list-head{
   font-weight: bold;
   color: black;
+}
+
+.col-2 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  width: 20%;
+  display: inline-block;
+  vertical-align: top;
+  text-align: left;
 }
