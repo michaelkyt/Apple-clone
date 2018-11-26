@@ -255,3 +255,33 @@ footer {
   vertical-align: top;
   text-align: left;
 }
+
+.footer-help {
+  margin: 0 auto;
+  max-width: 1024px;
+  text-align: left;
+  color: #999;
+}
+
+.footer-help a:hover {
+    text-decoration-line: underline;
+    color: black;
+}
+
+#more-shop {
+  border-bottom: 1px solid #e3e3e3;
+  margin-bottom: 5px;
+  padding-bottom: 6px;
+}
+
+#legal, #legal-links, #region {
+  display: inline-block;
+}
+
+#legal {
+  margin-right: 25px;
+}
+
+#region {
+  float: right;
+}
